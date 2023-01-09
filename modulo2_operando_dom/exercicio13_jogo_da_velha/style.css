@@ -5,11 +5,11 @@ body {
   #gameBoard {
     background-color: #232323;
     display: grid;
-    grid-template-columns: 6rem 6rem 6rem;
-    grid-template-rows: 6rem 6rem 6rem;
-    gap: .5rem;
-    margin-bottom: 1.5rem;
-    max-width: 19rem;
+    grid-template-columns: 8rem 8rem 8rem;
+    grid-template-rows: 8rem 8rem 8rem;
+    gap: .8rem;
+    margin-bottom: 2rem;
+    max-width: 25.50rem;
   }
   
   #gameBoard span {

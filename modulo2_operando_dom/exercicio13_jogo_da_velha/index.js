@@ -3,8 +3,10 @@ const boardRegions = document.querySelectorAll('#gameBoard span')
 let vBoard = []
 let turnPlayer = ''
 
+//Jogador da vez.
 function updateTitle() {
   const playerInput = document.getElementById(turnPlayer)
+  //adiciono o jogador da vez
   document.getElementById('turnPlayer').innerText = playerInput.value
 }
 
